@@ -1,0 +1,19 @@
+.example {
+  background-color: $bg-grey-secondary;
+  font-family: $secondary-font;
+  font-weight: $font-weight-primary;
+}
+
+.example__title {
+  font-family: $primary-font;
+  color: $color-black;
+  line-height: $line-height-big;
+  font-size: $font-size-big;
+}
+
+.example__text {
+  font-family: $secondary-font;
+  color: $text-color-main;
+  line-height: $line-height-basic;
+  font-size: $font-size-main;
+}

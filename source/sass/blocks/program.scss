@@ -1,0 +1,17 @@
+.program {
+  font-family: $primary-font;
+  font-weight: $font-weight-primary;
+  background-color: $bg-color-green;
+  color: $color-white;
+  text-transform: uppercase;
+}
+
+.program__title {
+  font-size: $font-size-big;
+  line-height: $line-height-big;
+}
+
+.program__text {
+  font-size: $font-size-main;
+  line-height: $line-height-basic;
+}
