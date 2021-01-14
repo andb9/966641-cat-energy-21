@@ -1,0 +1,21 @@
+.program {
+  font-family: $secondary-font;
+  background-color: $bg-color-green;
+  color: $white;
+  text-align: center;
+}
+
+.program__title {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.program__text {
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.program-link {
+  line-height: 18px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+.example {
+  background-color: $bg-grey-secondary;
+}
+
+.example__title {
+  font-family: $secondary-font;
+  font-size: 36px;
+  line-height: 40px;
+  color: $black;
+}
+
+.example__text {
+  line-height: 18px;
+}
+
+.example__value {
+  font-size: 24px;
+  line-height: 24px;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.example__info {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.example__price {
+  line-height: 20px;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.example__button {
+  font-size: 16px;
+  line-height: 20px;
+  color: $black;
+  text-transform: uppercase;
+}
