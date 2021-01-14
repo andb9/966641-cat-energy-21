@@ -1,17 +1,21 @@
 .program {
-  font-family: $primary-font;
-  font-weight: $font-weight-primary;
+  font-family: $secondary-font;
   background-color: $bg-color-green;
-  color: $color-white;
-  text-transform: uppercase;
+  color: $white;
+  text-align: center;
 }
 
 .program__title {
-  font-size: $font-size-big;
-  line-height: $line-height-big;
+  font-size: 36px;
+  line-height: 36px;
 }
 
 .program__text {
-  font-size: $font-size-main;
-  line-height: $line-height-basic;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.program-link {
+  line-height: 18px;
+  text-transform: uppercase;
 }

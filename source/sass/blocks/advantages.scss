@@ -1,18 +1,14 @@
 .advantages {
-  background-color: $color-white;
   font-weight: $font-weight-primary;
 }
 
 .advantages__title {
-  font-family: $primary-font;
-  font-size: $font-size-big;
+  font-family: $secondary-font;
+  font-size: 36px;
   line-height: 40px;
-  color: $color-black;
+  color: $black;
 }
 
 .advantages__text {
-  font-family: $secondary-font;
-  font-size: $font-size-main;
-  line-height: $line-height-basic;
-  color: $text-color-main;
+  line-height: 18px;
 }

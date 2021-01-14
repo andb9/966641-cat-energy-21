@@ -1,19 +1,39 @@
 .example {
   background-color: $bg-grey-secondary;
-  font-family: $secondary-font;
-  font-weight: $font-weight-primary;
 }
 
 .example__title {
-  font-family: $primary-font;
-  color: $color-black;
-  line-height: $line-height-big;
-  font-size: $font-size-big;
+  font-family: $secondary-font;
+  font-size: 36px;
+  line-height: 40px;
+  color: $black;
 }
 
 .example__text {
-  font-family: $secondary-font;
-  color: $text-color-main;
-  line-height: $line-height-basic;
-  font-size: $font-size-main;
+  line-height: 18px;
+}
+
+.example__value {
+  font-size: 24px;
+  line-height: 24px;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.example__info {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.example__price {
+  line-height: 20px;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.example__button {
+  font-size: 16px;
+  line-height: 20px;
+  color: $black;
+  text-transform: uppercase;
 }

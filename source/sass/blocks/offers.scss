@@ -1,19 +1,22 @@
 .offers {
   background-color: $bg-grey-main;
-  font-weight: $font-weight-primary;
 }
 
 .offers__title {
-  font-family: $primary-font;
-  font-size: $font-size-medium;
-  color: $color-black;
-  line-height: $line-height-big;
+  font-family: $secondary-font;
+  font-size: 24px;
+  line-height: 37px;
+  color: $black;
   text-transform: uppercase;
 }
 
 .offers__text {
+  line-height: 18px;
+}
+
+.offers__link {
   font-family: $secondary-font;
-  color: $text-color-main;
-  font-size: $font-size-main;
-  line-height: $line-height-basic;
+  font-size: 16px;
+  color: $black;
+  line-height: 16px;
 }

@@ -1,8 +1,13 @@
 .page-header {
-  background-color: $color-white;
-  color: $color-black;
-  font-family: $primary-font;
-  text-transform: uppercase;
   padding: 0;
   margin: 0;
+}
+
+.main-nav__list {
+  font-family: $secondary-font;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
 }
