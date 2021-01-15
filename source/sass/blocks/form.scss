@@ -1,0 +1,32 @@
+.form__label,
+.form__checkbox,
+.form__personal,
+.form__textarea {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.form__legend {
+  font-family: $secondary-font;
+  font-size: 24px;
+  font-style: 400;
+  line-height: 26px;
+  color: $black;
+}
+
+.form__button {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 20px;
+  width: 280px;
+  background: $bg-color-green;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.form__note {
+  line-height: 16px;
+  text-align: center;
+}

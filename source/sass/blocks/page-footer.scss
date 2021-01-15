@@ -2,7 +2,12 @@
   background-color: $bg-grey-main;
 }
 
-.page-footer__copyright {
+.page-footer__copy-link a {
   font-size: 16px;
   line-height: 18px;
+  color: $main-text-color;
+}
+
+.social__list {
+  @include list-reset;
 }

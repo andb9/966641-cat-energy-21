@@ -1,7 +1,7 @@
 @import "basics/normalize.scss";
+@import "basics/variables.scss";
 @import "basics/global.scss";
 @import "basics/fonts.scss";
-@import "basics/variables.scss";
 @import "basics/mixins.scss";
 @import "blocks/page-header.scss";
 @import "blocks/offers.scss";
@@ -9,3 +9,5 @@
 @import "blocks/advantages.scss";
 @import "blocks/example.scss";
 @import "blocks/page-footer.scss";
+@import "blocks/page-main.scss";
+@import "blocks/form.scss";
