@@ -17,7 +17,6 @@
 }
 
 .program__link {
-  color: $white;
+  @include button-style;
   line-height: 18px;
-  text-transform: uppercase;
 }

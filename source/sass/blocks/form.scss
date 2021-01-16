@@ -12,7 +12,7 @@
 }
 
 .form__label--radio {
-  color: #222222;
+  color: $darkgrey;
 }
 
 .form__label--checkbox {
@@ -27,12 +27,9 @@
 }
 
 .form__button {
+  @include button-style;
   font-size: 16px;
   line-height: 20px;
-  width: 280px;
-  background: $bg-color-green;
-  color: $white;
-  text-transform: uppercase;
 }
 
 .form__note {

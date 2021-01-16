@@ -1,0 +1,18 @@
+.item__title {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: $black;
+}
+
+.item__cell {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.item__button {
+  @include button-style;
+  size: 16px;
+  line-height: 20px;
+}
