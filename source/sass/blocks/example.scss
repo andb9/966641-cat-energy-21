@@ -1,9 +1,9 @@
 .example {
   background-color: $bg-grey-secondary;
+  font-family: $secondary-font;
 }
 
 .example__title {
-  font-family: $secondary-font;
   font-size: 36px;
   font-weight: 400;
   line-height: 40px;
@@ -11,6 +11,7 @@
 }
 
 .example__text {
+  font-family: $main-font;
   line-height: 18px;
 }
 
@@ -23,6 +24,7 @@
 }
 
 .example__info {
+  font-family: $main-font;
   font-size: 12px;
   line-height: 12px;
   text-align: center;

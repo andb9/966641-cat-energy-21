@@ -16,8 +16,7 @@
   text-transform: uppercase;
 }
 
-.program-link {
-  color: $white;
+.program__link {
+  @include button-style;
   line-height: 18px;
-  text-transform: uppercase;
 }

@@ -1,15 +1,25 @@
-.form__label,
-.form__checkbox,
-.form__personal,
-.form__textarea {
+.form {
   font-family: $secondary-font;
+}
+
+.form__label--checkbox,
+.form__label--personal,
+.form__label--radio,
+.form__textarea {
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
+.form__label--radio {
+  color: $darkgrey;
+}
+
+.form__label--checkbox {
+  color: $black;
+}
+
 .form__legend {
-  font-family: $secondary-font;
   font-size: 24px;
   font-style: 400;
   line-height: 26px;
@@ -17,16 +27,15 @@
 }
 
 .form__button {
-  font-family: $secondary-font;
+  @include button-style;
   font-size: 16px;
   line-height: 20px;
-  width: 280px;
-  background: $bg-color-green;
-  color: $white;
-  text-transform: uppercase;
 }
 
 .form__note {
+  font-family: $main-font;
+  font-size: 14px;
   line-height: 16px;
   text-align: center;
+  color: $black;
 }

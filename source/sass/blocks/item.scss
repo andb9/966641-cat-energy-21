@@ -1,0 +1,41 @@
+.item__title {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $darkgrey;
+}
+
+.item__cell {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.item__button {
+  @include button-style;
+  size: 16px;
+  line-height: 20px;
+}
+
+.item__button-add {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 20px;
+  color: $main-text-color;
+  background-color: $bg-grey-main;
+  text-transform: uppercase;
+}
+
+.item__more {
+  font-family: $secondary-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.item__more-info {
+  font-size: 12px;
+  line-height: 16px;
+}
