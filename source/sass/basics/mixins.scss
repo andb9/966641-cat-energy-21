@@ -5,6 +5,7 @@
 }
 
 @mixin button-style {
+  font-family: $secondary-font;
   background-color: $bg-color-green;
   color: $white;
   text-transform: uppercase;
